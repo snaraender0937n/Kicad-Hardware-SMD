@@ -1,0 +1,81 @@
+# =========================
+# KiCad temporary & cache
+# =========================
+*.bak
+*.bck
+*.kicad_prl
+*.kicad_pro~
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+_autosave-*
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# KiCad generated folders
+# =========================
+.fp-info-cache
+fp-info-cache
+.sym-cache
+cache/
+__pycache__/
+
+# =========================
+# Gerber / fabrication outputs
+# (ignore unless you want to version them)
+# =========================
+*.gbr
+*.ger
+*.drl
+*.gbl
+*.gtl
+*.gbs
+*.gts
+*.gbo
+*.gto
+*.gm1
+*.gm2
+*.job
+
+# =========================
+# Drill & position files
+# =========================
+*.drl
+*.pos
+*.rpt
+
+# =========================
+# 3D & exports
+# =========================
+*.step
+*.stp
+*.wrl
+*.pdf
+*.svg
+*.png
+
+# =========================
+# FreeRouting files
+# =========================
+*.dsn
+*.ses
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / editor files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
